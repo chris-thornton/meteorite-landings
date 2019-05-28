@@ -1,1 +1,1 @@
-# meteorite-landings
+Table of meteorite landings from API provided by NASA (https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh)

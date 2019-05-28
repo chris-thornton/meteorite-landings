@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background-color:#556;
+  background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+  background-size:80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  height: 100vh;
+}
+
+.Center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  font-size: 19px;
+  border-radius: 5px;
+  background-color: rgb(11, 61, 145); 
+  color: white; 
+  width: 100px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 30px 0px rgba(11, 61, 145, 0.5);
+}
+
+table {
+  width: 100%; 
+  background-color: white; 
+  border-radius: 5;
+}
+
+.tableScroll {
+  overflow-y: auto;
+  height: 80vh;
+}
+
+th {
+  position: sticky; 
+  top: 0; 
+  z-index: 999; 
+  background-color: #000; 
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  }
